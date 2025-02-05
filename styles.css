@@ -12,6 +12,20 @@ body {
   box-sizing: border-box;
 }
 
+.navbar {
+  width: 100%;
+  background-color: white; /* Ensure visibility */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Keeps it on top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds the drop shadow */
+}
+
 .container {
   max-width: 400px;
   width: 100%;

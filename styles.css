@@ -58,6 +58,7 @@ body {
   height: 200px;
   background-color: #ddd;
   margin-bottom: 20px;
+  radius: 15px;
 }
 
 .followup-text {

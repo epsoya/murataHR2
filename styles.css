@@ -6,31 +6,36 @@ body {
   align-items: center;
   background-color: #f9f9f9;
   color: #333;
-  padding: 20px;
-  position: relative;
   min-height: 100vh;
   box-sizing: border-box;
+  padding: 0; /* Remove padding from body */
 }
 
 .navbar {
   width: 100%;
-  background-color: white; /* Ensure visibility */
-  padding: 10px 20px;
+  background-color: white;
+  padding: 15px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed; /* Keeps it on top */
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds the drop shadow */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+.page-content { 
+  width: 100%;
+  padding: 20px; /* Adds padding to everything except nav */
+  box-sizing: border-box;
+  margin-top: 80px; /* Push content below navbar */
 }
 
 .container {
   max-width: 400px;
   width: 100%;
   text-align: center;
-  margin-top: 0;
   margin-bottom: auto;
 }
 
